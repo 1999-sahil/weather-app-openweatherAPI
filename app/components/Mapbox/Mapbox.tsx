@@ -6,7 +6,7 @@ import "leaflet/dist/leaflet.css";
 import { useGlobalContext } from "@/app/context/globalContext";
 import { Skeleton } from "@/components/ui/skeleton";
 
-function FlyToActiveCity({ activeCityCords }) {
+function FlyToActiveCity({ activeCityCords }: any) {
     const map = useMap();
   
     useEffect(() => {
